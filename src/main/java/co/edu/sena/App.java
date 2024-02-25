@@ -67,6 +67,25 @@ class NumberSquared
         System.out.println("El número al cuadrado es: " + squared);
     }
 }
+class EuroDollar
+{
+    public static void main( String[] args)
+    {
+        //entradas
+        System.out.println("4. Escribir un algoritmo que convierta de euros a dólares");
+        System.out.println("Ingrese la cantidad en Euros para convertir a dólar: ");
+
+        Scanner src = new Scanner(System.in);
+        double euro = src.nextDouble();
+
+        //proceso
+        double dollar = euro * 1.08;
+
+        //salida 
+        System.out.println("Sus euros equivalen a " + dollar +" dólares");
+    }
+}
+
 
 
 
