@@ -30,6 +30,27 @@ public class App
 
     
 }
+class Sumnumbers
+{
+    public static void main( String[] args )
+    {
+        //entradas
+        System.out.println( "2. Ingresar 2 numeros y sumarlos" );
+        System.out.println( "Ingrese el primer número: ");
+
+        Scanner src = new Scanner(System.in);
+        double number1 = src.nextDouble();
+
+        System.out.println("Ingrese el segundo número: ");
+        double number2 = src.nextDouble();
+
+        //proceso
+        double sum = number1 + number2;
+
+        //salida
+        System.out.println("La suma es: " + sum);
+    }
+}
 
 
 
