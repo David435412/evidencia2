@@ -26,9 +26,7 @@ public class App
 
         //salida
         System.out.println("El área del triángulo es: " + result);    
-    }
-
-    
+    }    
 }
 class Sumnumbers
 {
@@ -51,7 +49,24 @@ class Sumnumbers
         System.out.println("La suma es: " + sum);
     }
 }
+class NumberSquared
+{
+    public static void main( String[] args)
+    {
+        //entradas
+        System.out.println("3. Ingresar un número y visualizar el número al cuadrado");
+        System.out.println("Ingrese un número: " );
 
+        Scanner src = new Scanner(System.in);
+        double number = src.nextDouble();
+
+        //proceso
+        double squared = number * number;
+
+        //salida
+        System.out.println("El número al cuadrado es: " + squared);
+    }
+}
 
 
 
