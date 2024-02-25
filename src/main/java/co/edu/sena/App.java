@@ -154,7 +154,7 @@ class Average
     public static void main( String[] args)
     {
         //entradas
-        System.out.println("9. Calcular el promedio de tres números ingresados por teclado");
+        System.out.println("8. Calcular el promedio de tres números ingresados por teclado");
         System.out.println("Ingrese el primer número: ");
 
         Scanner src = new Scanner(System.in);
