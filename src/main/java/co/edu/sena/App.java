@@ -129,6 +129,50 @@ class Cylinder
         System.out.println("El área del cilindro es " + totalarea + " y el volumen es " + volume);
     }
 }
+class Circle
+{
+    public static void main( String[] args)
+    {
+        //entradas
+        System.out.println("7. Realizar un algoritmo que lea el radio de una circunferencia y escriba la longitud de la misma y el área del circulo inscrito");
+        System.out.println("Ingrese el radio de el circulo: ");
+
+        Scanner src = new Scanner(System.in);
+        double radius = src.nextDouble();     
+
+        //proceso
+        double PI = 3.1416;
+        double length = 2 * PI * radius ;
+        double area =  PI * (radius * radius);       
+
+        //salida 
+        System.out.println("La longitud del circulo es " + length + " y el área es " + area);
+    }
+}
+class Average
+{
+    public static void main( String[] args)
+    {
+        //entradas
+        System.out.println("9. Calcular el promedio de tres números ingresados por teclado");
+        System.out.println("Ingrese el primer número: ");
+
+        Scanner src = new Scanner(System.in);
+        double number1 = src.nextDouble();     
+
+        System.out.println("Ingrese el segundo número: ");
+        double number2 = src.nextDouble();
+
+        System.out.println("Ingrese el tercer número: ");
+        double number3 = src.nextDouble();
+        
+        //proceso
+        double average = (number1 + number2 + number3 ) / 3;
+          
+        //salida 
+        System.out.println("El promedio de los 3 números es: " + average );
+    }
+}
 
 
 
