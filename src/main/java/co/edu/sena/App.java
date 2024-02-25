@@ -104,6 +104,31 @@ class Squared
         System.out.println("El área del cuadrado es " + area + " y el perimetro es " + perimeter);
     }
 }
+class Cylinder
+{
+    public static void main( String[] args)
+    {
+        //entradas
+        System.out.println("6. Escribir un algoritmo que determine el area y el volumen de un cilindro");
+        System.out.println("Ingrese el radio de la base del cilindro: ");
+
+        Scanner src = new Scanner(System.in);
+        double radius = src.nextDouble();
+
+        System.out.println("Ingrese la altura del cilindro: ");
+        double height = src.nextDouble();       
+
+        //proceso
+        double PI = 3.1416;
+        double basearea = PI * radius * radius ;
+        double lateralarea = 2 * PI * radius * height;
+        double totalarea = basearea + lateralarea;
+        double volume = basearea * height;
+
+        //salida 
+        System.out.println("El área del cilindro es " + totalarea + " y el volumen es " + volume);
+    }
+}
 
 
 
