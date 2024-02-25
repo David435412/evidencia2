@@ -85,7 +85,25 @@ class EuroDollar
         System.out.println("Sus euros equivalen a " + dollar +" dólares");
     }
 }
+class Squared
+{
+    public static void main( String[] args)
+    {
+        //entradas
+        System.out.println("5. Escribir un algoritmo que pida el lado de un cuadrado y muestre el valor del area y del perimetro");
+        System.out.println("Ingrese el lado del cuadrado: ");
 
+        Scanner src = new Scanner(System.in);
+        double side = src.nextDouble();
+
+        //proceso
+        double area = side * side;
+        double perimeter = side * 4;
+
+        //salida 
+        System.out.println("El área del cuadrado es " + area + " y el perimetro es " + perimeter);
+    }
+}
 
 
 
